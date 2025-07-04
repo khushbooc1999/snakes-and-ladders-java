@@ -1,4 +1,4 @@
-package snakeandladders;
+package com.snakesandladders;
 
 import java.util.List;
 
