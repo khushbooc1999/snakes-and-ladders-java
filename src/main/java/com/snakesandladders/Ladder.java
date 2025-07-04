@@ -1,4 +1,4 @@
-package snakeandladders;
+package com.snakesandladders;
 
 public class Ladder {
     private final int start;

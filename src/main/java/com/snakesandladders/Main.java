@@ -17,7 +17,7 @@ public class Main {
         Dice dice = new Dice();
         Player player = new Player("Khushboo");
        
-        Game game = new Game(board, dice, players);
+        Game game = new Game(player, board, dice);
         game.start();
     }
 }

@@ -1,4 +1,4 @@
-package snakeandladders;
+package com.snakesandladders;
 
 public class Player {
     private final String name;
