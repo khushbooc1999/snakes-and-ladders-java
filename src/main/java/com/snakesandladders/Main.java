@@ -15,9 +15,15 @@ public class Main {
 	
 
         Dice dice = new Dice();
+	ArrayList<Player> players = new List();
         Player player = new Player("Khushboo");
+	Player player1 = new Player("XYZ");
+        players.add(player);
+	players.add(player1);
+	
+
        
-        Game game = new Game(player, board, dice);
+        Game game = new Game(players, board, dice);
         game.start();
     }
 }
